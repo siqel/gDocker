@@ -34,8 +34,8 @@ services:
     volumes:
       - .:/var/www
       - ./config/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
-      - ./config/nginx/my-site.com.crt:/etc/nginx/my-site.com.crt # New Line!
-      - ./config/nginx/my-site.com.key:/etc/nginx/my-site.com.key # New Line!
+#      - ./config/nginx/my-site.com.crt:/etc/nginx/my-site.com.crt # New Line!
+#      - ./config/nginx/my-site.com.key:/etc/nginx/my-site.com.key # New Line!
     ports:
       - "80:80"
       - "443:443"
