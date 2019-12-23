@@ -1,0 +1,24 @@
+version: '2'
+services:
+    php-fpm:
+      extends:
+        service: php-fpm
+        file: ../docker-compose.yml
+      depends_on:
+        - mysql
+      volumes:
+        - .:/var/www
+    mysql:
+      extends:
+        service: mysql
+        file: ../docker-compose.yml
+    redis:
+      extends:
+        service: redis
+        file: ../docker-compose.yml
+    webserver:
+      extends:
+        service: webserver
+        file: ../docker-compose.yml
+      depends_on:
+        - php-fpm

@@ -1,0 +1,7 @@
+.idea
+
+# exclude everything
+storage/mysql/*
+
+# exception to the rule
+!storage/mysql/.gitkeep
