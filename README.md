@@ -5,7 +5,9 @@
 5. В директории своего проекта docker-compose up -d --build первый раз, потом можно без --build
 6. Для переключения между проектами docker-compose down для завершения текущего проекта и docker-compose up -d в новом проекте
 
-xdebug на порту docker-compose up -d --build
+xdebug хост 192.168.220.1
+http://joxi.ru/V2V93WaiKdQlEm
+http://joxi.ru/Dr8BPDvUzo0q02
 
 Troubleshout 
 Проверяйте не заблокированны ли порты 80,443,3306 
