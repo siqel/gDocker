@@ -14,3 +14,5 @@ Troubleshout
 Если проект не запускается пробуйте docker-compose up -d --build
 
 Доступ в контейнер docker exec -it localhost-php-fpm bash
+Все команды вроде artisan и тд выполнять внутри контейнера
+Ошибка Permission denied - chmod 775 storage -R внутри контейнера
